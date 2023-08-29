@@ -1,0 +1,47 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileCard {
+  margin: 0 auto;
+  padding: 5vh 10vh 5vh 10vh;
+  margin-top: 10VH;
+}
+
+.experienceTitle {
+  text-align: center;
+  border-color: aquamarine;
+  border-radius: 10%;
+  border-width: 5em;
+  border: 100cm;
+  padding-bottom: 15px;
+}
+
+.experience {
+  padding-bottom: 15px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.playerWrapper {
+  width: auto;
+  height: auto;
+}
+
+.reactPlayer {
+  padding-top: 10%;
+  position: relative;
+  padding-bottom: 20%;
+  border-bottom: 20px;
+  border-color: black;
+  border-width: 5px;
+}
+
+.reactPlayer>div {
+  position: absolute;
+}
